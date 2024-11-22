@@ -1,0 +1,96 @@
+    {
+        "quiz": {
+            "questions": [
+                {
+                    "type": "multiple_choice",
+                    "question": "What does the Chinese Remainder Theorem state?",
+                    "options": [
+                        "If you know the remainders of an integer n when divided by several integers, you can determine the remainder of n when divided by the product of those integers.",
+                        "If you know the remainders of an integer n when divided by several integers, you can determine the value of n itself.",
+                        "If you know the remainders of an integer n when divided by several integers, you can determine the greatest common divisor of those integers.",
+                        "None of the above."
+                    ],
+                    "answer": 0
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "What is the key condition for the Chinese Remainder Theorem to hold?",
+                    "options": [
+                        "The divisors must be all even numbers.",
+                        "The divisors must be all odd numbers.",
+                        "The divisors must be pairwise coprime (no two divisors share a common factor other than 1).",
+                        "The divisors must be multiples of each other."
+                    ],
+                    "answer": 2
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Which of these is an example of the Chinese Remainder Theorem in action?",
+                    "options": [
+                        "Knowing that a number leaves a remainder of 2 when divided by 3, 3 when divided by 5, and 2 when divided by 7, we can deduce that the remainder when divided by 105 (3*5*7) is 23.",
+                        "Knowing that a number is divisible by 3 and 5, we can conclude it is divisible by 15.",
+                        "Knowing that a number leaves a remainder of 1 when divided by 2, we can conclude it is an odd number.",
+                        "None of the above."
+                    ],
+                    "answer": 0
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "What is one practical application of the Chinese Remainder Theorem?",
+                    "options": [
+                        "It helps in finding the largest prime factor of a number.",
+                        "It is used to decrypt secret messages.",
+                        "It aids in efficient computation with large integers by breaking them into smaller computations.",
+                        "It is used to prove the existence of infinitely many prime numbers."
+                    ],
+                    "answer": 2
+                },
+                {
+                    "type": "multiple_choice",
+                    "question": "Which ancient mathematician is credited with the earliest known statement of the Chinese Remainder Theorem?",
+                    "options": [
+                        "Pythagoras",
+                        "Euclid",
+                        "Sunzi",
+                        "Diophantus"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "type": "true_false",
+                    "question": "The Chinese Remainder Theorem is only applicable to integers.",
+                    "answer": false
+                },
+                {
+                    "type": "true_false",
+                    "question": "The Chinese Remainder Theorem can be generalized to work with rings, not just integers.",
+                    "answer": true
+                },
+                {
+                    "type": "true_false",
+                    "question": "The Chinese Remainder Theorem is primarily used for solving problems related to calendar calculations.",
+                    "answer": false
+                },
+                {
+                    "type": "true_false",
+                    "question": "The Chinese Remainder Theorem guarantees the existence of a unique solution for a given set of congruences.",
+                    "answer": true
+                },
+                {
+                    "type": "short_answer",
+                    "question": "What is the remainder when 100 is divided by 3? (Enter just the number)",
+                    "answer": "1"
+                },
+                {
+                    "type": "short_answer",
+                    "question": "What is the remainder when 100 is divided by 7? (Enter just the number)",
+                    "answer": "2"
+                },
+                {
+                    "type": "short_answer",
+                    "question": "What is the remainder when 100 is divided by 11? (Enter just the number)",
+                    "answer": "1"
+                }
+            ]
+        }
+    }
